@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.container .card{
+    width: 50%;
+    margin: 10% auto;
+    background-color: #EEE;
+    overflow: hidden;
+    padding: 40px;
+    font-size: 21px;
+    font-weight:bolder ;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    box-shadow: 1px 1px 20px 6px #ddd;
+    position: relative;
+}
+.container .card .cont_i{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -49px;
+    right: -53px;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: #00ff;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: 2s;
+}
+
+.container .card i{
+    position: relative;
+    top: -30px;
+    right: -689px;
+    color: #FFF;
+    z-index: 999;
+}
+.container .card p{
+    position: relative;
+    z-index: 999999;
+}
+
+/* .container .card:hover{
+    background-color: #00ff;
+    color: #FFF;
+} */
+
+.container .card .cont_i:hover{
+    transform: scale(20 ,20);
+    border: none;
+    border-radius: 0px;
+    -webkit-transform: scale(20 ,20);
+    -moz-transform: scale(20 ,20);
+    -ms-transform: scale(20 ,20);
+    -o-transform: scale(20 ,20);
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+.container .card:hover p {
+    transition: all 2s;
+    color: #FFF;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
